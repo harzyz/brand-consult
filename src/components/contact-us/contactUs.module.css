@@ -1,0 +1,93 @@
+.wrapper{
+  width: 100%;
+  padding: 50px 40px;
+  background-color: #FFF;
+}
+.innerWrapper{
+  width: 100%;
+  background-color: #12182B;
+  border-radius: 32px;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  gap: 50px;
+}
+.innerWrapperText{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.innerWrapper h1{
+  font-size: 55px;
+  font-weight: 600;
+  margin: 0;
+}
+.innerWrapper p{
+  font-size: 24px;
+  width: 70%;
+  text-align: center;
+}
+.subscribe{
+  width: 500px;
+  height: 72px;
+  background-color: #FFF;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.subscribe input{
+  height: 50px;
+  width: 250px;
+  border: none;
+  font-family: 'Poppins';
+  font-size: 18px;
+}
+.subscribe input:focus-visible{
+  outline: none;
+}
+.subscribe button{
+  border: none;
+  background-color: #69FAB4;
+  border-radius: 8px;
+  font-family: 'Poppins';
+  font-size: 17px;
+  color: #12182B;
+  width: 137px;
+  height: 48px;
+}
+@media screen and (max-width: 450px) {
+  .wrapper{
+    padding: 50px 10px;
+  }
+  .innerWrapper{
+    padding: 30px 15px;
+  }
+  .innerWrapper h1{
+    font-size: 25px;
+    text-align: center;
+  }
+  .innerWrapper p{
+    width: 100%;
+    font-size: 12px;
+  }
+  .subscribe{
+    width: 250px;
+    height: 50px;
+    padding: 0 10px;
+  }
+  .subscribe input{
+    height: 35px;
+    width: 120px;
+    font-size: 12px;
+  }
+  .subscribe button{
+    width: 80px;
+    height: 38px;
+    font-size: 12px;
+  }
+}

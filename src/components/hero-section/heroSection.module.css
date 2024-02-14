@@ -1,0 +1,69 @@
+.wrapper{
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  display: flex;
+  padding: 20px 50px 30px;
+  justify-content: space-between;
+}
+.heroText{
+  width: 45%;
+}
+.heroText h1{
+  font-weight: 700;
+  font-size: 68px;
+}
+.heroText p{
+  font-size: 20px;
+}
+.heroText button{
+  width: 166px;
+  height: 54px;
+  border-radius: 8px;
+  background-color: #12182B;
+  border: none;
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Poppins';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.arrow{
+  color: #69FAB4;
+}
+.heroImage{
+  width: 50%;
+}
+.heroImage img{
+  width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .wrapper{
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+  .heroText{
+    width: 100%;
+  }
+  .heroText br{
+    display: none;
+  }
+  .heroText h1{
+    font-size: 30px;
+    text-align: center;
+  }
+  .heroText p{
+    font-size: 14px;
+  }
+  .heroText button{
+    height: 34px;
+    width: 120px;
+    font-size: 15px;
+  }
+  .heroImage{
+    width: 100%;
+  }
+}

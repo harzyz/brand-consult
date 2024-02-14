@@ -1,0 +1,81 @@
+.wrapper{
+  background-color: #0E121F;
+  color: #FFF;
+  padding: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper h1{
+  text-align: center;
+}
+.wrapper p {
+  text-align: center;
+  width: 60%;
+}
+.serviceList{
+  width: 100%;
+  padding: 30px 25px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.serviceItem{
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 405px;
+  align-items: center;
+  padding: 50px;
+  text-align: center;
+  background-color: #12182B;
+  border-radius: 18px;
+}
+.iconbg{
+  background-color: #FFF;
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.serviceItem p{
+  width: 100%;
+}
+/* .serviceItemContainer{
+  width: 100%;
+} */
+@media screen and (max-width: 450px) {
+  .wrapper h1{
+    font-size: 20px;
+    width: 90%;
+  }
+  .wrapper p{
+    font-size: 12px;
+    width: 80%;
+  }
+  .serviceList{
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    height: 100%;
+    justify-content: unset;
+    padding: 0px 40px;
+  }
+  .serviceItem{
+    height: 250px;
+    width: 250px;
+    padding: 25px 10px;
+  }
+  .serviceItem p{
+    width: 100%;
+  }
+  .serviceItem h3{
+    font-size: 15px;
+  }
+  .serviceItem p{
+    font-size: 12px;
+  }
+}

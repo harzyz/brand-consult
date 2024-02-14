@@ -1,0 +1,38 @@
+.wrapper{
+  width: 100%;
+  padding: 50px 30px;
+}
+.wrapper h1{
+  font-size: 64px;
+  width: 65%;
+}
+.mentorsList{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.mentorsItem{
+  width: 350px;
+  text-align: center;
+}
+.mentorsImage{
+  width: 100%;
+}
+.mentorsImage img{
+  width: 100%;
+}
+@media screen and (max-width: 450px) {
+  .wrapper h1{
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+  .mentorsList{
+    overflow-x: scroll;
+    justify-content: unset;
+  }
+  .mentorsItem{
+    width: 250px;
+
+  }
+}

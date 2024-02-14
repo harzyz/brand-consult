@@ -1,0 +1,67 @@
+.wrapper{
+  width: 100%;
+  display: flex;
+  padding: 30px 20px;
+  justify-content: space-between;
+}
+.teamImage{
+  width: 50%;
+}
+.teamImage img{
+  width: 100%;
+}
+.teamText{
+  width: 40%;
+}
+.teamText h1{
+  font-size: 48px;
+  color: #12182B;
+}
+.motive{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.motive div{
+  width: 180px;
+  background-color: #FFF;
+  height: 46px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.motive div:hover{
+  background-color: #12182B;
+  color: #FFF;
+}
+.pbg{
+  padding: 10px 16px;
+  background-color: #E7ECFF;
+  border-radius: 12px;
+}
+@media screen and (max-width: 450px) {
+  .wrapper{
+    padding: 50px 10px;
+    flex-direction: column;
+  }
+  .teamImage{
+    width: 100%;
+  }
+  .teamText{
+    width: 100%;
+  }
+  .teamText h1{
+    font-size: 20px;
+    text-align: center;
+  }
+  .teamText p{
+    text-align: center;
+  }
+  .motive div{
+    width: 100px;
+    font-size: 14px;
+
+  }
+}
