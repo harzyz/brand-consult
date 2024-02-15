@@ -90,7 +90,7 @@
     top: 20px;
     right: 20px;
     font-size: 30px;
-    color: tomato;
+    color: #12182B;
   }
   .navList{
     position: absolute;
@@ -103,7 +103,7 @@
     align-items: flex-start;
     gap: 10px;
     height: 100vh;
-    width: 180px;
+    width: 75%;
     overflow: hidden;
     transition: all 1s ease;
   }
@@ -117,7 +117,6 @@
     right: 0;
     bottom: 0;
     transition: all 1s ease;
-
   }
   .closeListWapper{
     display: block;
@@ -128,7 +127,7 @@
     top: 0;
     right: 0;
     bottom: 0;
-    transition: all .2s ease;
+    transition: all .3s ease;
   }
   .close{
     position: absolute;
@@ -143,7 +142,7 @@
     height: 100vh;
     width: 0;
     overflow: hidden;
-    transition: all .2s ease;
+    transition: all .3s ease;
   }
   .signupBtn{
     display: none;
