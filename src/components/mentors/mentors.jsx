@@ -3,7 +3,7 @@ import { MentorsData } from "./mentorsData";
 
 const Mentors = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id="portfolio" className={styles.wrapper}>
       <h1>Our mentors are experts in different fields </h1>
       <div className={styles.mentorsList}>
         {MentorsData.map((item) => (

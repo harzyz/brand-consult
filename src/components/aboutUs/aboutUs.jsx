@@ -5,7 +5,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const AboutUs = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id="about" className={styles.wrapper}>
       <div className={styles.aboutusText}>
         <div className={styles.part1}>
           <h1>We Provide The Best Solution For Your Business Development</h1>

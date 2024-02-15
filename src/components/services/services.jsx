@@ -3,7 +3,7 @@ import { ServicesData } from "./servicesData";
 
 const Services = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id="services" className={styles.wrapper}>
       <h1>What We Do To Serve Your Best</h1>
       <p>
         We provide comprehensive services to support your business by leveraging

@@ -3,6 +3,7 @@
 
 *{
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -10,6 +11,10 @@ body {
   font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+a{
+  text-decoration: none;
+  color: inherit;
 }
 
 code {

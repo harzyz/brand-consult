@@ -4,7 +4,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
-    <section className={styles.wrapper}>
+    <section id="home" className={styles.wrapper}>
       <div className={styles.heroText}>
         <h1>Utilize our solution to expand <br /> your business.</h1>
         <p>
